@@ -8,16 +8,14 @@ while (true) {
     break;
   }
   if (answer ==='Y') {
-    // wskazanie ze odpowiedz jest liczba, a nie zmienna !!! this is a number not a string !!! (number(promt(qeustion))) otherwise you get something like this 5+5=55 in place 5+5=10 !!! important !!!
+   
     const numberOne = Number(prompt('Enter first number, please...'));
     const operator = prompt('Which operation do you want to do? (+,-,*,/.)');
     const numberTwo = Number(prompt('What is the second number ?'));
 
-    // utworzenie zmiennej result = adding variable result
     
     let result;
 
-    // variables for some math with case 
     
     switch(operator) {
       case '+':
@@ -31,6 +29,8 @@ while (true) {
         break;
       case '/':
         result = numberOne / numberTwo;
+        break;
+      default:
         break;
     }
 // if result is undefinied 
