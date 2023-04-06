@@ -42,6 +42,6 @@ while (true) {
     // answer
     console.log(`${numberOne}${operator}${numberTwo}=${result}`);
     } else {
-    console.log("Something wrong, one more time please..Remember about BIG LETTERS like Y or N/ .Use only operators like : -.+.*,/.")
+    console.log("Something wrong, one more time please...")
   }
 }
